@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>colorQuest</title>
+  <link href="style/style.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  
+</head>
+<body>
+	<div class="container">
+    <div class="heading">
+      <h1 class="title">colorQuest</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">--</div>
+      </div>
+    </div>
+    
+	<div class="above-game">
+      <p class="game-intro" style="margin-top: -60px;">Combine the colors and get <strong>these 4 tiles on your board!</strong></p>
+      <a class="restart-button">New Game</a>
+    </div>
+    <div class="game-container">
+      <!--<div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>-->
+      <div class="grid-container">
+	    <div class="sc-grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell touchable-grid" r="0" c="0"></div>
+          <div class="grid-cell touchable-grid" r="0" c="1"></div>
+          <div class="grid-cell touchable-grid" r="0" c="2"></div>
+          <div class="grid-cell touchable-grid" r="0" c="3"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell touchable-grid" r="1" c="0"></div>
+          <div class="grid-cell touchable-grid" r="1" c="1"></div>
+          <div class="grid-cell touchable-grid" r="1" c="2"></div>
+          <div class="grid-cell touchable-grid" r="1" c="3"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell touchable-grid" r="2" c="0"></div>
+          <div class="grid-cell touchable-grid" r="2" c="1"></div>
+          <div class="grid-cell touchable-grid" r="2" c="2"></div>
+          <div class="grid-cell touchable-grid" r="2" c="3"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell touchable-grid" r="3" c="0"></div>
+          <div class="grid-cell touchable-grid" r="3" c="1"></div>
+          <div class="grid-cell touchable-grid" r="3" c="2"></div>
+          <div class="grid-cell touchable-grid" r="3" c="3"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your finger to move the tiles. When two tiles touch, they <strong>merge into one</strong>! <br /><strong>Note:</strong> Number more than 16 will be subtracted by 16.
+    </p>
+    <hr>
+    <p>
+    <strong class="important">Note:</strong> This site is the official version of colorQuest. You can play it on your phone via <a href="http://colorquest.tk">http://colorquest.tk.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+    </p>
+    <hr>
+    <p>
+    Created by <a href="http://github.com/TonyLianLong" target="_blank">Tony Lian</a>. Based on <a href="https://github.com/gabrielecirulli/2048" target="_blank">2048 by Gabriele Cirulli</a>. Opensource on <a href="http://github.com/TonyLianLong/colorQuest" target="_blank">Github</a>.
+    </p>
+	<!--<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>-->
+  <script
+  src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script><!-- use baidu's cdn for faster speed-->
+  <script src="js/touch_manager.js"></script>
+  <script src="js/board.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?19eae219e548e47e37dce17efad62d6d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
