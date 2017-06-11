@@ -52,8 +52,11 @@ TouchManager.prototype.refreshBindings = function (board) {
 		  if(dy < -10 && Math.abs(dx) < Math.abs(dy)/3 && (srcR-1)>=0) board.move(srcC,srcR,srcC,srcR-1);
 	  });
   }else{
-	  if(!this.showedMessage)
-	  alert("PC is currently not supported. View it on mobile phone. Visit: http://colorquest.tk");
-	  this.showedMessage = true;
+	  if(!this.showedMessage){
+		  alert("PC is currently not supported. View it on mobile phone. Visit: http://colorquest.tk");
+		  $(".container").hide();
+		  $(".ViewOnPhone").show();
+		  this.showedMessage = true;
+	  }
   }
 };

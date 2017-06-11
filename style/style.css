@@ -118,6 +118,14 @@ hr {
 .container {
   width: 500px;
   margin: 0 auto; }
+  
+.ViewOnPhone {
+  text-align: center;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  display:none;
+}
 
 @-webkit-keyframes fade-in {
   0% {
