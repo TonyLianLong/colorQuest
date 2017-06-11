@@ -1,5 +1,6 @@
 # colorQuest
-An online game based on HTML5/JavaScript.
+An online game based on HTML5/JavaScript. <br/>
+<img src="https://raw.githubusercontent.com/TonyLianLong/colorQuest/master/img/screenshot.png" /> <br/>
 <a href="https://tonylianlong.github.io/colorQuest/">Play it here</a> <br/>
 <img src="https://raw.githubusercontent.com/TonyLianLong/colorQuest/master/img/qrcode.png" /> <br/>
 Scan QR code or visit http://colorquest.tk to play it on the phone.
