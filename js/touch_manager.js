@@ -9,6 +9,7 @@ function TouchManager() {
     this.eventTouchmove     = "touchmove";
     this.eventTouchend      = "touchend";
   }
+  $(".game-container").bind("touchstart",function(e){e.preventDefault();});
 }
 TouchManager.prototype.isAbleToTouch = function(){ 
 	var userAgentInfo = navigator.userAgent; 
@@ -53,7 +54,7 @@ TouchManager.prototype.refreshBindings = function (board) {
 	  });
   }else{
 	  if(!this.showedMessage){
-		  alert("PC is currently not supported. View it on mobile phone. Visit: http://colorquest.tk");
+		  alert("PC is currently not supported. View it on mobile phone.");
 		  $(".container").hide();
 		  $(".ViewOnPhone").show();
 		  this.showedMessage = true;

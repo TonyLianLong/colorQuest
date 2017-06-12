@@ -11,11 +11,11 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
-  <div id='wx_pic' style='margin:0 auto;display:none;'>
-	<img src='./img/icon.png' />
-	</div>
 </head>
 <body>
+	<div id='wx_pic' style='margin:0 auto;display:none;'>
+		<img src='./img/icon_300x300.png' />
+    </div>
 	<div class="ViewOnPhone">
 		<img src="./img/qrcode.png" />
 		<p>Scan Code to Play on Phone</p>
@@ -34,7 +34,7 @@
       <p class="game-intro" style="margin-top: -60px;">Combine the colors and get <strong>these 4 tiles on your board!</strong></p>
       <a class="restart-button">New Game</a>
     </div>
-    <div class="game-container">
+    <div class="game-container" touch-action="none">
       <!--<div class="game-message">
         <p></p>
         <div class="lower">
