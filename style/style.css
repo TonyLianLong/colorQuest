@@ -629,7 +629,7 @@ border-color: #00ff34;border-width: 3px;border-radius: 3px;border-style: dashed;
 
   h1.title {
     font-size: 50px;
-    margin-top: 0px; }
+    margin-top: -20px; }
 
   .container {
     width: 280px;
