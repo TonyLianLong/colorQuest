@@ -9,4 +9,5 @@ Use your finger to move the tiles below the gray line. When two tiles touch, the
 ### Contribution ###
 This game is written by Tony Lian based on <a href="https://github.com/gabrielecirulli/2048">2048 by Gabriele Cirulli</a>. Pull requests are welcomed.
 ### Credits ###
-Thanks for providing bug report.
+Thanks for providing bug report: <br/>
+Laiming Huang, Feiyang Lin, and Qianqian Lin.
